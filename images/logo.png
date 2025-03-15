@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="80" viewBox="0 0 200 80">
+  <style>
+    .logo-text { font-family: Arial, sans-serif; font-weight: bold; }
+    .main-text { font-size: 24px; fill: #333; }
+    .sub-text { font-size: 14px; fill: #666; }
+    .pagoda { fill: #4a6da7; }
+  </style>
+
+  <!-- 塔形图标 -->
+  <path class="pagoda" d="M50,10 L70,10 L65,20 L75,20 L70,30 L80,30 L75,40 L85,40 L65,70 L45,40 L55,40 L50,30 L60,30 L55,20 L65,20 L60,10 Z" />
+
+  <!-- 文字部分 -->
+  <text x="90" y="35" class="logo-text main-text">KENJIAO</text>
+  <text x="90" y="55" class="logo-text sub-text">CNTEX</text>
+</svg>
