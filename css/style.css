@@ -137,6 +137,24 @@ ul {
     position: relative;
 }
 
+/* 移动端适配 */
+@media screen and (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about-text,
+    .about-slider {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .about-text {
+        margin-bottom: 20px;
+    }
+}
+
 .swiper-container {
     border-radius: 8px;
     overflow: hidden;
