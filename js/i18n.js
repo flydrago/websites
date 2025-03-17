@@ -15,7 +15,7 @@ const i18n = {
         'about_title': 'About Us',
         'about_p1': 'Located in Shaoxing, China, KENJIAO CNTEX is a professional enterprise engaged in R&D and production of curtains, including blackout curtains and kitchen curtains. Our products include curtains, blackout fabrics, embossed fabrics, printed fabrics, and jacquard fabrics, which are sold globally.',
         'about_p2': 'With over 20 years of export experience, our expertise and innovation are our most important assets. As the famous Greek philosopher Heraclitus said, "The only constant is change." At CNTEX, our business is constantly evolving. We embrace change rather than competing with it. The future of CNTEX will be bright. We are determined to see what the next corner will bring.',
-        'about_more': 'Learn More',
+        'about_more': 'Read More',
 
         // 视频部分
         'video_title': 'Watch Our Factory Video',
