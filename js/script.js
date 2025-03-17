@@ -1,47 +1,33 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // 轮播图功能
-    const slides = document.querySelectorAll('.slide');
-    const prevBtn = document.querySelector('.prev-btn');
-    const nextBtn = document.querySelector('.next-btn');
-    let currentSlide = 0;
+    // 初始化Swiper轮播图
+    const swiper = new Swiper('.swiper-container', {
+        // 循环模式选项
+        loop: true,
 
-    // 初始化轮播图
-    function showSlide(index) {
-        // 隐藏所有幻灯片
-        slides.forEach(slide => {
-            slide.classList.remove('active');
-        });
+        // 自动播放
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+        },
 
-        // 显示当前幻灯片
-        slides[index].classList.add('active');
-    }
+        // 分页器
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
 
-    // 下一张幻灯片
-    function nextSlide() {
-        currentSlide++;
-        if (currentSlide >= slides.length) {
-            currentSlide = 0;
-        }
-        showSlide(currentSlide);
-    }
+        // 前进后退按钮
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
 
-    // 上一张幻灯片
-    function prevSlide() {
-        currentSlide--;
-        if (currentSlide < 0) {
-            currentSlide = slides.length - 1;
-        }
-        showSlide(currentSlide);
-    }
-
-    // 添加事件监听器
-    if (nextBtn && prevBtn) {
-        nextBtn.addEventListener('click', nextSlide);
-        prevBtn.addEventListener('click', prevSlide);
-    }
-
-    // 自动轮播
-    setInterval(nextSlide, 5000);
+        // 渐变效果
+        effect: 'fade',
+        fadeEffect: {
+            crossFade: true
+        },
+    });
 
     // 视频播放控制
     const video = document.getElementById('factory-video');

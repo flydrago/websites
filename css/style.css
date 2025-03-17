@@ -115,74 +115,51 @@ ul {
 
 .about-content {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 40px;
+    justify-content: space-between;
 }
 
 .about-text {
-    flex: 1;
-}
-
-.about-text h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-.about-text p {
-    margin-bottom: 15px;
-    color: #666;
-}
-
-.about-text .btn {
-    margin-top: 10px;
+    flex: 0 0 45%;
+    max-width: 45%;
 }
 
 .about-slider {
-    flex: 1;
+    flex: 0 0 50%;
+    max-width: 50%;
     position: relative;
 }
 
-.slider-container {
+.swiper-container {
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: 300px;
+    width: 100%;
 }
 
-.slide {
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    background-color: #f5f5f5;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
     display: none;
 }
 
-.slide.active {
-    display: block;
+.swiper-pagination-bullet {
+    background: #fff;
+    opacity: 0.5;
 }
 
-.slide img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.slider-controls {
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-}
-
-.slider-controls button {
-    background-color: #4a6da7;
-    color: #fff;
-    border: none;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin: 0 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.slider-controls button:hover {
-    background-color: #3a5a8f;
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #fff;
 }
 
 /* 视频部分 */
@@ -331,7 +308,6 @@ footer {
 
 .footer-logo img {
     height: 40px;
-    filter: brightness(0) invert(1);
 }
 
 .footer-links ul {

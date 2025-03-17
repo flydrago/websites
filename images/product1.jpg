@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
-  <rect width="400" height="300" fill="#f0f0f0"/>
-  <rect x="50" y="50" width="300" height="200" fill="#e0e0e0" stroke="#999" stroke-width="2" rx="5" ry="5"/>
-  <rect x="70" y="70" width="260" height="160" fill="#4a6da7" opacity="0.2" rx="3" ry="3"/>
-  <path d="M100,150 L300,150" stroke="#4a6da7" stroke-width="2" stroke-dasharray="5,5"/>
-  <path d="M200,100 L200,220" stroke="#4a6da7" stroke-width="2" stroke-dasharray="5,5"/>
-  <text x="200" y="160" font-family="Arial" font-size="20" text-anchor="middle" fill="#4a6da7">遮光窗帘</text>
-  <text x="200" y="190" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">高品质面料</text>
-</svg>

@@ -1,47 +1,5 @@
 // 国际化资源文件
 const i18n = {
-    'cantonese': {
-        // 导航
-        'nav_about': '关于我们',
-        'nav_products': '产品信息',
-        'nav_contact': '联系我们',
-
-        // 语言选择
-        'lang_cn': '简体中文',
-        'lang_en': 'English',
-        'lang_cantonese': '广州话(粤)',
-
-        // 关于我们
-        'about_title': '关于我们',
-        'about_p1': '坐落于中国绍兴的科娇中国纺织有限公司是一家专业从事R&D和窗帘生产的企业，包括遮光窗帘和厨房窗帘。我们的产品包括窗帘、遮光布、压花面料、印花面料和提花面料，销往全球。',
-        'about_p2': '凭借20多年的出口经验，我们的专业知识和创新能力是我们最重要的资产。正如著名的希腊哲学家赫拉克利特所说："唯一不变的是变化本身"。在CNTEX，我们的业务不断发展。我们拥抱变化，而不是与之竞争。CNTEX的未来将是光明的。我们决心看看下一个转角会带来什么。',
-        'about_more': '了解更多',
-
-        // 视频部分
-        'video_title': '观看我们的工厂视频',
-        'video_not_supported': '您的浏览器不支持视频标签。',
-
-        // 产品部分
-        'products_title': '我们的产品',
-        'product1_title': '遮光窗帘',
-        'product1_desc': '高品质遮光面料，有效阻挡阳光，提供舒适的室内环境。',
-        'product2_title': '厨房窗帘',
-        'product2_desc': '防水、防油污的厨房窗帘，美观实用，易于清洁。',
-        'product3_title': '印花面料',
-        'product3_desc': '多样化的印花设计，满足不同客户的个性化需求。',
-
-        // 联系我们
-        'contact_title': '联系我们',
-        'contact_address': '中国绍兴',
-        'contact_form_name': '您的姓名',
-        'contact_form_email': '您的邮箱',
-        'contact_form_message': '您的留言',
-        'contact_form_submit': '发送消息',
-        'contact_form_success': '感谢您的留言！我们会尽快回复您。',
-
-        // 页脚
-        'copyright': '© 2023 KENJIAO CNTEX. 保留所有权利。'
-    },
     'en': {
         // 导航
         'nav_about': 'About Us',
