@@ -40,7 +40,7 @@ const i18n = {
         'contact_form_success': 'Thank you for your message! We will reply to you as soon as possible.',
 
         // 页脚
-        'copyright': '© 2023 KENJIAO CNTEX. All rights reserved.'
+        'copyright': '© 2023 KEJIAO CNTEX. All rights reserved.'
     },
     'zh': {
         // 导航
@@ -82,6 +82,6 @@ const i18n = {
         'contact_form_success': '感谢您的留言！我们会尽快回复您。',
 
         // 页脚
-        'copyright': '© 2023 KENJIAO CNTEX. 保留所有权利。'
+        'copyright': '© 2023 KEJIAO CNTEX. 保留所有权利。'
     }
 }

@@ -81,8 +81,14 @@ ul {
     align-items: center;
 }
 
+.logo {
+  height: 120px;
+  width: 120px;
+}
+
 .logo img {
-    height: 50px;
+    height: 120px;
+    width: 120px;
 }
 
 .nav-links ul {
@@ -325,7 +331,7 @@ footer {
 
 .footer-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     margin-bottom: 30px;
 }
@@ -336,6 +342,7 @@ footer {
 
 .footer-links ul {
     display: flex;
+    justify-content: flex-end;
 }
 
 .footer-links li {
@@ -345,6 +352,10 @@ footer {
 .footer-links a {
     color: #fff;
     transition: color 0.3s;
+}
+
+.footer-links i {
+    margin-right: 5px;
 }
 
 .footer-links a:hover {
