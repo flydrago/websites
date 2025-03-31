@@ -79,6 +79,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 15px 0;
 }
 
 .logo {
@@ -91,8 +92,14 @@ ul {
     width: 120px;
 }
 
+.nav-links {
+    margin-left: auto;
+    margin-right: 30px;
+}
+
 .nav-links ul {
     display: flex;
+    justify-content: flex-end;
 }
 
 .nav-links li {
