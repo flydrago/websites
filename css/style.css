@@ -108,15 +108,25 @@ ul {
     color: #4a6da7;
 }
 
-.language-switch a {
-    margin-left: 10px;
+.language-switch select {
+    padding: 8px 12px;
     font-size: 14px;
     color: #666;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.3s;
 }
 
-.language-switch a.active {
-    color: #4a6da7;
-    font-weight: bold;
+.language-switch select:hover {
+    border-color: #4a6da7;
+}
+
+.language-switch select:focus {
+    border-color: #4a6da7;
+    box-shadow: 0 0 0 2px rgba(74, 109, 167, 0.1);
 }
 
 /* 关于我们部分 */

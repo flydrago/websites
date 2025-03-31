@@ -49,8 +49,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // 导入国际化资源文件
     // 注意：确保在HTML中引入了i18n.js文件
 
-    // 当前语言，默认为中文
-    let currentLang = 'cantonese';
+    // 当前语言，默认为英文
+    let currentLang = 'en';
 
     // 更新页面文本的函数
     function updatePageText(lang) {
@@ -90,16 +90,17 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // 语言切换功能
-    const langLinks = document.querySelectorAll('.language-switch a');
-    langLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-            const lang = this.getAttribute('data-lang');
+    const languageSelect = document.getElementById('languageSelect');
+    if (languageSelect) {
+        languageSelect.addEventListener('change', function() {
+            const lang = this.value;
             if (lang) {
                 updatePageText(lang);
             }
         });
-    });
+        // 设置初始选中值
+        languageSelect.value = currentLang;
+    };
 
     // 初始化默认语言
     updatePageText(currentLang);
