@@ -83,13 +83,13 @@ ul {
 }
 
 .logo {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
 }
 
 .logo img {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
 }
 
 .nav-links {
@@ -138,7 +138,7 @@ ul {
 
 /* 关于我们部分 */
 .about-section {
-    padding: 60px 0;
+    padding: 10px 0;
     background-color: #fff;
 }
 
