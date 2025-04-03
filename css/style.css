@@ -72,24 +72,22 @@ ul {
 .main-nav {
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 15px 0;
+    padding: 5px 0;
 }
 
 .main-nav .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 0;
+    padding: 5px 0;
 }
 
 .logo {
-  height: 150px;
-  width: 150px;
+  width: 140px;
 }
 
 .logo img {
-    height: 150px;
-    width: 150px;
+    width: 140px;
 }
 
 .nav-links {
@@ -138,7 +136,7 @@ ul {
 
 /* 关于我们部分 */
 .about-section {
-    padding: 10px 0;
+    padding: 15px 0;
     background-color: #fff;
 }
 
@@ -152,6 +150,14 @@ ul {
 .about-text {
     flex: 0 0 45%;
     max-width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.about-text h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 .about-slider {
