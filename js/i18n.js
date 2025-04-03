@@ -13,8 +13,7 @@ const i18n = {
 
         // 关于我们
         'about_title': 'About Us',
-        'about_p1': 'Shaoxing Keqiao China Textile Co.,Ltd. is a factory specializing in R&D and production of curtains, shower curtains and kitchen curtains. CNTEX supplies curtain fabrics and finished products such as window screens, blackout fabrics, embroidered fabrics, printed fabrics, and jacquard fabrics to all over the world. ',
-        'about_p2': 'With 20 years\' experience of export, CNTEX grows rapidly. We have always considered our customers to be the most important asset. The famous Greek Philosopher Heraclitis said,“The only thing constant is change.". At CNTEX, our business is constantly involving. We embraces change rather than compete with it. The future of CNTEX will be bright. We are excited to see what is around the next corner.',
+        'about_p1': 'Shaoxing Keqiao China Textile Co.,Ltd. is a factory specializing in R&D and production of curtains, shower curtains and kitchen curtains. CNTEX supplies curtain fabrics and finished products such as window screens, blackout fabrics, embroidered fabrics, printed fabrics, and jacquard fabrics to all over the world. With 20 years\' experience of export, CNTEX grows rapidly. We have always considered our customers to be the most important asset. The famous Greek Philosopher Heraclitis said,“The only thing constant is change.". At CNTEX, our business is constantly involving. We embraces change rather than compete with it. The future of CNTEX will be bright. We are excited to see what is around the next corner.',
         'about_more': 'Read More',
 
         // 视频部分
@@ -55,8 +54,7 @@ const i18n = {
 
         // 关于我们
         'about_title': '关于我们',
-        'about_p1': '绍兴柯桥中国纺织有限公司是一家专业研发和生产窗帘、浴帘和厨房窗帘的工厂。CNTEX 向世界各地供应窗帘面料和窗纱、遮光面料、刺绣面料、印花面料、提花面料等成品。',
-        'about_p2': '凭借 20 年的出口经验，CNTEX 发展迅速。我们一直认为我们的客户是最重要的资产。著名的希腊哲学家 赫拉克利特 说：“唯一不变的是变化。”。在 CNTEX，我们的业务不断涉及。我们拥抱变化而不是与之竞争。CNTEX 的未来将是光明的。我们很高兴看到下一个拐角处会发生什么。',
+        'about_p1': '绍兴柯桥中国纺织有限公司是一家专业研发和生产窗帘、浴帘和厨房窗帘的工厂。CNTEX 向世界各地供应窗帘面料和窗纱、遮光面料、刺绣面料、印花面料、提花面料等成品。凭借 20 年的出口经验，CNTEX 发展迅速。我们一直认为我们的客户是最重要的资产。著名的希腊哲学家 赫拉克利特 说：“唯一不变的是变化。”。在 CNTEX，我们的业务不断涉及。我们拥抱变化而不是与之竞争。CNTEX 的未来将是光明的。我们很高兴看到下一个拐角处会发生什么。',
         'about_more': '了解更多',
 
         // 视频部分
